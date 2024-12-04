@@ -1,6 +1,6 @@
-package src.service;
+package service;
 
-import src.model.Pedido;
+import model.Pedido;
 
 public class DescontoPorCategoriaCliente implements IDesconto {
     @Override

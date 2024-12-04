@@ -1,0 +1,17 @@
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\log\DBLog.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\log\ILog.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\log\JSONLog.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\log\PedidoLogger.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\log\XMLLog.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\main\Main.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\model\Cliente.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\model\Desconto.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\model\Item.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\model\Pedido.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\service\CalculadoraDescontoService.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\service\DescontoPorCategoriaCliente.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\service\DescontoPorCodigoCupom.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\service\DescontoPorTipoItem.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\service\IDesconto.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\ufes\br\util\UsuarioLogadoService.java
+C:\Users\Guilherme\Desktop\FaculPes\Faul\ProjetoDeSistemasDeSoftware\ProjetoCRN\src\view\PedidoView.java

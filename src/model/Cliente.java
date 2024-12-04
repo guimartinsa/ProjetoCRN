@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 public class Cliente {
     private String nome;
@@ -6,6 +6,9 @@ public class Cliente {
 
     public Cliente(String nome, String tipo) {
         this.nome = nome;
+        if (!tipo.equals("Ouro") && !tipo.equals("Prata") && !tipo.equals("Bronze")) {
+            throw new IllegalArgumentException("Tipo de cliente inválido.");
+        }
         this.tipo = tipo;
     }
 

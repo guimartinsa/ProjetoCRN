@@ -1,7 +1,7 @@
-package test;
+/*package test;
 
-import src.model.Pedido;
-import src.service.CalculadoraDescontoService;
+importmodel.Pedido;
+import service.CalculadoraDescontoService;
 
 public class DescontoTest {
     public static void main(String[] args) {
@@ -9,3 +9,4 @@ public class DescontoTest {
         System.out.println("Testes de desconto ainda a serem implementados...");
     }
 }
+*/

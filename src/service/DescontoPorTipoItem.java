@@ -1,20 +1,22 @@
-package src.service;
+package service;
 
-import src.model.Item;
-import src.model.Pedido;
+import model.Item;
+import model.Pedido;
+
+import java.util.Map;
 
 public class DescontoPorTipoItem implements IDesconto {
+    private static final Map<String, Double> descontosPorTipo = Map.of(
+            "Alimentação", 0.05,
+            "Educação", 0.20,
+            "Lazer", 0.15
+    );
+
     @Override
     public double calcular(Pedido pedido) {
         return pedido.getItens().stream()
-                .mapToDouble(item -> {
-                    switch (item.getTipo()) {
-                        case "Alimentação": return item.getValorTotal() * 0.05;
-                        case "Educação": return item.getValorTotal() * 0.20;
-                        case "Lazer": return item.getValorTotal() * 0.15;
-                        default: return 0.0;
-                    }
-                }).sum();
+                .mapToDouble(item -> descontosPorTipo.getOrDefault(item.getTipo(), 0.0) * item.getValorTotal())
+                .sum();
     }
 
     @Override

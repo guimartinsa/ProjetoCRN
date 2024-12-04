@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 public class Desconto {
     private final String descricao;

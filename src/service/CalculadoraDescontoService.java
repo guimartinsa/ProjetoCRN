@@ -1,6 +1,6 @@
-package src.service;
+package service;
 
-import src.model.Pedido;
+import model.Pedido;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,11 +15,14 @@ public class CalculadoraDescontoService {
     }
 
     public double calcularDesconto(Pedido pedido) {
+        double descontoAplicado = 0.0;
         for (IDesconto desconto : descontos) {
             if (desconto.aplicar(pedido)) {
-                return desconto.calcular(pedido);
+                descontoAplicado = desconto.calcular(pedido);
+                System.out.println("Desconto aplicado: R$" + descontoAplicado);
+                break;
             }
         }
-        return 0.0;
+        return descontoAplicado;
     }
 }
